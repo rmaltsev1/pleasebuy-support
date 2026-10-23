@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Please Buy — Privacy Policy</title>
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --coral: #ff6b61; --pink: #f261ad; --ink: #33203a; --muted: #6e5a73;
+    --card: #ffffff; --bg: #fff6f4; color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #fbeef2; --muted: #c9b3c4; --card: #24161f; --bg: #170d14; }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: ui-rounded, -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", sans-serif;
+    background: var(--bg); color: var(--ink); line-height: 1.7; padding: 40px 16px;
+  }
+  .card {
+    background: var(--card); border-radius: 22px; padding: 30px 26px; max-width: 720px; margin: 0 auto;
+    box-shadow: 0 8px 28px rgba(51,32,58,.08);
+  }
+  .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+  .brand img { width: 48px; height: 48px; border-radius: 12px; }
+  h1 { font-size: 28px; font-weight: 800; }
+  .updated { color: var(--muted); margin-bottom: 18px; }
+  h2 { font-size: 19px; margin: 22px 0 6px; }
+  p, li { color: var(--muted); margin-bottom: 8px; }
+  ul { padding-left: 20px; }
+  b { color: var(--ink); }
+  a { color: var(--coral); font-weight: 600; text-decoration: none; }
+  footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 20px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="brand"><img src="icon.png" alt=""><div><h1>Privacy Policy</h1><p class="updated">Please Buy · Last updated 23 October 2026</p></div></div>
+
+    <p>Please Buy ("the app") is made by Rinat Maltsev. In short: <b>there are no accounts, ads, analytics or tracking, and your lists, receipts and budgets are stored in your own iCloud.</b> The developer can't read them.</p>
+
+    <h2>Your lists, receipts and budgets</h2>
+    <p>Everything you create is stored on your iPhone and synced through Apple's iCloud (CloudKit) to <b>your private iCloud database</b>. When you share a list or join a family circle, that data is shared through iCloud only with the people you invite. The developer has no access to your private or shared iCloud data.</p>
+
+    <h2>Nudges and trip alerts</h2>
+    <p>To deliver a nudge ("Please buy oat milk") or an "I'm at the store" alert to another person, the app saves a short message to the app's public iCloud database, where the recipient's device picks it up. Each message holds the sender's chosen display name, the app-specific iCloud user IDs of the sender and recipient, and the message content. Between members of a family circle, the content (text, list and items) is <b>end-to-end encrypted</b> with a key only the circle's members have. Messages expire after 24 hours, and the sender's app deletes expired ones the next time it runs. They are used only to deliver the alert.</p>
+
+    <h2>Receipts and photos</h2>
+    <p>Receipt photos are read <b>on your iPhone</b> (Apple's Vision text recognition and, where available, Apple Intelligence running on device). The photo itself never leaves your iPhone. The items, prices and store you save become part of your lists' data in iCloud, as described above.</p>
+
+    <h2>Location</h2>
+    <p>If you turn on store reminders, the app uses your location <b>only on your iPhone</b>, to notice when you arrive at a store you saved. Your location is never sent anywhere.</p>
+
+    <h2>Notifications</h2>
+    <p>Notifications are delivered by Apple's push notification service. The app asks for permission and works without it.</p>
+
+    <h2>No tracking, ads or analytics</h2>
+    <p>The app contains no advertising, analytics or tracking code, and doesn't use the advertising identifier.</p>
+
+    <h2>Children</h2>
+    <p>The app is suitable for all ages and doesn't knowingly collect personal information from children.</p>
+
+    <h2>Deleting your data</h2>
+    <p>Delete lists, receipts or your circle in the app. To remove everything, delete the app and its data under Settings › Apple Account › iCloud › Manage Storage.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about privacy: <a href="mailto:rinatjkeee666@gmail.com?subject=Please%20Buy%20privacy">rinatjkeee666@gmail.com</a></p>
+  </div>
+  <footer><a href="index.html">Please Buy support</a></footer>
+</body>
+</html>

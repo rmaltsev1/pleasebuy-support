@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Please Buy — Support</title>
+<meta name="description" content="Please Buy: shared shopping lists for families, nudges, receipt scanning and spending insights. Help and contact.">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --coral: #ff6b61; --pink: #f261ad; --ink: #33203a; --muted: #6e5a73;
+    --card: #ffffff; --bg: #fff6f4; color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #fbeef2; --muted: #c9b3c4; --card: #24161f; --bg: #170d14; }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: ui-rounded, -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", sans-serif;
+    background: var(--bg); color: var(--ink); line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, var(--coral), var(--pink)); color: #fff;
+    text-align: center; padding: 56px 16px 72px;
+  }
+  header img { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 12px 32px rgba(0,0,0,.18); }
+  header h1 { font-size: 34px; font-weight: 800; margin-top: 18px; }
+  header p { font-size: 18px; opacity: .92; margin-top: 6px; }
+  main { max-width: 720px; margin: -40px auto 0; padding: 0 16px 48px; }
+  .card {
+    background: var(--card); border-radius: 22px; padding: 26px 24px; margin-bottom: 16px;
+    box-shadow: 0 8px 28px rgba(51,32,58,.08);
+  }
+  h2 { font-size: 21px; margin-bottom: 10px; }
+  h3 { font-size: 16px; margin: 16px 0 4px; }
+  p, li { color: var(--muted); }
+  ul { padding-left: 20px; }
+  a { color: var(--coral); font-weight: 600; text-decoration: none; }
+  .contact { text-align: center; }
+  .button {
+    display: inline-block; margin-top: 10px; padding: 12px 22px; border-radius: 999px;
+    background: linear-gradient(135deg, var(--coral), var(--pink)); color: #fff;
+  }
+  footer { text-align: center; color: var(--muted); font-size: 14px; padding: 8px 16px 32px; }
+</style>
+</head>
+<body>
+  <header>
+    <img src="icon.png" alt="Please Buy app icon">
+    <h1>Please Buy</h1>
+    <p>Shopping lists your family actually uses</p>
+  </header>
+  <main>
+    <section class="card">
+      <h2>What it does</h2>
+      <ul>
+        <li>Share shopping lists with your family circle in real time, and claim items ("I'll get it").</li>
+        <li>Nudge someone to pick something up, or tell everyone you're at the store.</li>
+        <li>Scan receipts to check off what you bought and see where the grocery money goes.</li>
+        <li>Budgets, price history and "running low?" suggestions.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Frequently asked questions</h2>
+      <h3>Do I need an account?</h3>
+      <p>No. Please Buy uses your iCloud. Lists work right away, even offline.</p>
+      <h3>How do I share lists with my family?</h3>
+      <p>Open the Circle tab, tap <b>Create circle</b>, then <b>Invite someone</b>. They join with their own Apple Account by opening the link. Everyone in the circle sees the circle's lists. To share one list with a friend, open it and tap the share button.</p>
+      <h3>Why can't I create a circle?</h3>
+      <p>Sharing needs iCloud. Sign in under Settings › Apple Account, and make sure iCloud is on for Please Buy (Settings › Apple Account › iCloud › Apps Using iCloud).</p>
+      <h3>I'm not getting nudges.</h3>
+      <p>Check Settings › Notifications › Please Buy, and that both of you are in the same circle. Nudges can take a few seconds to arrive.</p>
+      <h3>Where is my data stored?</h3>
+      <p>In your own iCloud, shared only with people you invite. Receipt photos and your location never leave your iPhone. See the <a href="privacy.html">privacy policy</a>.</p>
+      <h3>The receipt was read wrong.</h3>
+      <p>You can fix any line on the review screen before saving. If a store's receipts are often misread, email us a photo with personal details covered and we'll improve it.</p>
+      <h3>How do I leave a circle or delete my data?</h3>
+      <p>Circle tab › <b>Leave circle</b> (or <b>Delete circle</b> if you started it). To remove everything, delete the app and its data under Settings › Apple Account › iCloud › Manage Storage.</p>
+    </section>
+
+    <section class="card contact">
+      <h2>Contact</h2>
+      <p>Questions, bugs or ideas? We read every message.</p>
+      <a class="button" href="mailto:rinatjkeee666@gmail.com?subject=Please%20Buy">Email support</a>
+    </section>
+  </main>
+  <footer>© 2026 Rinat Maltsev · <a href="privacy.html">Privacy Policy</a></footer>
+</body>
+</html>
